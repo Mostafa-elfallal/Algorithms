@@ -25,4 +25,5 @@ void adv_insertion_sort(void * VArray,int element_size,int Array_size,int cmp(vo
 		}
 		elementcpy((char*)VArray+(i+1)*element_size,key,element_size);
 	}
+	free(key);
 }

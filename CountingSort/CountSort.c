@@ -23,4 +23,5 @@ void CountingSort(int A[],int B[],int k,int A_Size)
 		B[C[A[i]]-1] = A[i];
 		C[A[i]]--;
 	}
+	free(C);
 }
